@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!--apertando !+tab faz td o esqueleto logo-->
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alisson</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+
+    </head>
+    <body>
+        <!--para gerar todo esse header, eu fiz:
+        header>img+nav>a*5-->
+        <header>
+            <img src="assets/image/portfolio.png" >
+            <!--alt mostra uma frase q a pessoa coloca quando a img nao carrega
+            nav é display block e o header tbm, ou seja, eles ocupam a linha toda
+            sendo que o filho ocupa a linha toda do pai, mas neles funcionam o height e o width
+            -->
+            <nav>
+                <a href="" lang="en">skills</a>
+                <a href="">projetos</a>
+                <a href="">sobre</a>
+                <a href="">contatos</a>
+                <!--para gerar a linha de baixo rapidamente basta:
+                a[lang=en]{download vc}
+                para fazer a linha de cima:
+                a{contatos}-->
+
+                <!--para mudar apenas o botao de baixo
+                usasse o id dessa forma no css #button-->
+                <a id="button" lang="en">download cv</a>
+                <!--todos os links a vem como padrao com display: inline;
+                isso impede que mude a largura e tamanho do botao. para mudar, basta colocar
+                inline-block-->
+            </nav>
+        </header>
+    </body>
+</html>
