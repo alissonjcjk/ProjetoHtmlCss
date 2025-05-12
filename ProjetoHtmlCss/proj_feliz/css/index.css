@@ -1,0 +1,38 @@
+header{
+    background-color: pink;
+}
+
+/*OBS: CADA TAG REPRESENTA UM BLOCO E TUDO Q ESTA NO BLOCO É REPRESENTADO COMO PALAVRA
+AO MODIFICAR O QUE ESTA DENTRO DE NAV, TUDO DENTRO DELE É REPRESENTADO COMO PALAVRA
+AI USA O TEXT. NESSE CASO, TUDO QUE ESTA DENTRO DO NAV (TAG MAE) IRÁ CENTRALIZAR*/
+nav{
+    text-align: right  ;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+img{
+    image-resolution: 40px 40px;
+}
+
+#button{
+    display: inline-block;
+    background-color: red;
+    height: 70px;
+    line-height: 70px;
+    /*padding is the space inside the element, margin is the space outside the element and other object or no
+    obs: the padding wight the element, for exemple, if the element have dimentions
+    100x100 and padding 20px, will be add 20px of each side of 100x100*/
+    padding-left: 20px;
+    padding-right: 20px;
+    /*box shadow faz a sombra*/
+    box-shadow: 5px 5px 0 black;
+}
